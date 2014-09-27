@@ -1,0 +1,8 @@
+module TME2 {
+	interface Server {
+		void registerFile(in string filename, in string clientname, in string port);
+		void removeFile(in string filename, in string clientname);
+		boolean findFile(in string filename);
+		string getFile(in string filename);
+	};
+};
