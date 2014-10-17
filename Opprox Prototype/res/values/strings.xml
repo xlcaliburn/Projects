@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Opprox</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="exit_button">Exit</string>
+
+    <color name="teal">#216777</color>
+    <color name="white">#FFFFFF</color>
+
+    <string name="title_activity_splash">Choose a Category</string>
+    <string name="title_activity_splash_screen">Choose a Category</string>
+    <string name="title_activity_list_of_items">Category</string>
+    <string name="title_activity_deal">DealActivity</string>
+
+</resources>

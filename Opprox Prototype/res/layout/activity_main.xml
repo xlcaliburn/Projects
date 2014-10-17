@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/teal" >
+    
+    <!-- <ProgressBar
+        android:id="@+id/progressbar"
+        android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_centerInParent="true"
+        /> -->
+		        
+	<ImageView
+	    android:id="@+id/logo"
+	    android:contentDescription="@string/logo"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerInParent="true"
+	    android:visibility="visible" />
+       
+    <TextView
+	     android:id="@+id/location"
+	     android:layout_width="wrap_content"
+	     android:layout_height="wrap_content"
+	     android:layout_centerInParent="true"
+	     android:layout_below="@+id/logo"
+	     android:gravity="center"	     
+	     android:textColor="@color/white"
+	     android:textSize="20sp"
+	     android:layout_marginTop="10dp"
+	     android:textIsSelectable="false" />
+	    
+
+    
+    <Button
+        android:id="@+id/location_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/location"
+        android:visibility="gone"
+	     />
+    
+      <Button
+        android:id="@+id/retry_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/location_button"
+        android:layout_marginTop="50dp"
+        android:visibility="gone"
+	     />  
+	     
+     
+</RelativeLayout>

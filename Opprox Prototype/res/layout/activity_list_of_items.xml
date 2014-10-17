@@ -1,0 +1,49 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:tools="http://schemas.android.com/tools"
+     android:layout_width="fill_parent"
+     android:layout_height="fill_parent"
+     tools:ignore="MergeRootFrame"
+     android:background="@color/teal">
+     
+    	<RelativeLayout android:id="@+id/splashback"
+	        android:layout_height="fill_parent"
+	        android:layout_width="fill_parent"
+	        android:visibility="visible"
+	        android:background="@color/teal" >
+
+	   		<ProgressBar
+	   		    android:id="@+id/progress_bar"
+	   		    android:layout_width="wrap_content"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_alignParentBottom="true"
+	   		    android:layout_centerHorizontal="true"
+	   		    android:layout_marginBottom="166dp" />
+
+	   		<TextView
+	   		    android:id="@+id/text_view"
+	   		    android:layout_width="fill_parent"
+	   		    android:layout_height="wrap_content"
+	   		    android:layout_alignParentLeft="true"
+	   		    android:layout_alignParentStart="true"
+	   		    android:layout_marginTop="30dp"
+	   		    android:gravity="center"
+	   		    android:textColor="@color/white"
+	   		    android:textSize="30sp"
+	   		    android:textIsSelectable="false" />
+	        
+	     </RelativeLayout>
+
+     	<RelativeLayout android:id="@+id/deals"
+	        android:layout_height="fill_parent"
+	        android:layout_width="fill_parent"
+	        android:background="@color/teal"
+	        android:visibility="gone" >
+	   		
+	         <WebView
+		         android:id="@+id/webview"
+		         android:layout_width="fill_parent"
+		         android:layout_height="fill_parent" 
+		         />
+	         
+	    </RelativeLayout>
+</FrameLayout>

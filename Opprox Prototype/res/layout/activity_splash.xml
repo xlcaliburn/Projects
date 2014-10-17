@@ -1,0 +1,62 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/teal" >
+    
+	  <TextView
+	     android:id="@+id/title"
+	     android:layout_width="fill_parent"
+	     android:layout_height="wrap_content"
+	     android:gravity="center"	     
+	     android:textColor="@color/white"
+	     android:textSize="30sp"
+	     android:layout_marginTop="40dp"
+	     android:textIsSelectable="false" />
+    
+    <RelativeLayout
+	    android:layout_width="265dp"
+	    android:layout_height="265dp"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:layout_gravity="center_vertical|center_horizontal" >
+
+       	<Button
+	        android:id="@+id/food_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_centerHorizontal="true"
+	        android:background="@drawable/foodbutton" />
+        
+	    <Button
+	        android:id="@+id/clothing_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentStart="true"
+	        android:background="@drawable/clothingbutton" />
+
+	    <Button
+	        android:id="@+id/health_button"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_alignParentEnd="true"
+	        android:background="@drawable/healthbutton" />
+	    
+	        <Button
+        android:id="@+id/entertainment_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/entertainmentbutton" />
+
+   </RelativeLayout>
+
+
+    
+</RelativeLayout>
